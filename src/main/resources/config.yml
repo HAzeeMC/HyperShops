@@ -1,0 +1,25 @@
+locale: "vi_VN"
+autosave-interval-ticks: 1200
+
+economy:
+  require-vault: true
+  tax-percent: 0.0
+
+ui:
+  title: "HyperShop"
+  rows: 6
+  filler: GRAY_STAINED_GLASS_PANE
+  back-item: ARROW
+
+pricing:
+  mode: STOCK
+  percent:
+    up-per-sale: 0.01
+    down-per-buy: 0.01
+    min-multiplier: 0.5
+    max-multiplier: 2.0
+  stock:
+    base-stock: 100
+    elasticity: 0.15
+    min-price-multiplier: 0.5
+    max-price-multiplier: 2.0

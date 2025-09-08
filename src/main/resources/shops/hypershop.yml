@@ -1,0 +1,12 @@
+id: hypershop
+name: "&aHyperShop"
+icon: "CHEST"
+items:
+  - material: COBBLESTONE
+    display-name: "&7Đá cuội"
+    buy: 10.0
+    sell: 2.5
+  - material: OAK_LOG
+    display-name: "&6Gỗ sồi"
+    buy: 20.0
+    sell: 5.0

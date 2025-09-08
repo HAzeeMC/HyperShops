@@ -1,0 +1,25 @@
+name: HyperShop
+main: com.hypershop.HyperShopPlugin
+version: "1.0.0"
+author: hyperdev
+api-version: "1.21"
+depend: [Vault]
+softdepend: [PlaceholderAPI]
+commands:
+  hypershop:
+    description: Lệnh chính cho HyperShop
+    aliases: [hs, shop]
+    usage: "/hypershop <lệnh>"
+permissions:
+  hypershop.use:
+    default: true
+  hypershop.open:
+    default: true
+  hypershop.admin:
+    default: op
+  hypershop.edit:
+    default: op
+  hypershop.reload:
+    default: op
+  hypershop.category.*:
+    default: op

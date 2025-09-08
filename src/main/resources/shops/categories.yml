@@ -1,0 +1,6 @@
+categories:
+  building:
+    display: "GRASS_BLOCK"
+    name: "&aKhối xây dựng"
+    group: "default"
+    shops: ["hypershop"]
